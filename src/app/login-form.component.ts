@@ -10,18 +10,20 @@ import { MatIconModule } from '@angular/material/icon';
                 <input
                     class="p-2 w-full bg-gray-200 placeholder-gray-900 rounded border focus:border-teal-500"
                     type="text"
+                    autocomplete="email"
                     placeholder="Email"
                 />
             </div>
             <div class="mb-4">
                 <input
                     class="p-2 w-full bg-gray-200 placeholder-gray-900 rounded border focus:border-teal-500"
-                    type="text"
+                    type="password"
+                    autocomplete="current-password"
                     placeholder="Password"
                 />
             </div>
 
-            <div class="flex items-center mb-4 text-primary">
+            <div class="flex justify-end mb-4 text-primary">
                 <input id="remember-me" type="checkbox" class="mr-2" />
                 <label for="remember-me">Remember me!</label>
             </div>
